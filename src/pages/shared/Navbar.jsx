@@ -20,7 +20,13 @@ const Navbar = () => {
         <NavLink to="/">Home</NavLink>
       </li>
       <li>
-        <NavLink to="/">Home</NavLink>
+        <NavLink to="/myApplications">MyApplicaions</NavLink>
+      </li>
+      <li>
+        <NavLink to="/addJob">Add A Job</NavLink>
+      </li>
+      <li>
+        <NavLink to="/myPostedJobs">My Posted Jobs</NavLink>
       </li>
     </>
   );
